@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: aquamarine;
+            margin: 0px;
+        }
+        header{
+            background-color: rgb(208, 226, 43);
+            padding: 10px;
+            margin: 10px;
+        }
+        nav {
+            background-color: rgba(1, 1, 1, 0.481);
+            padding: 3px;
+            box-shadow: 2px 2px 4px 1px  rgba(0, 0, 0, 0.315)
+        }
+        nav > a {
+            text-decoration: none;
+            color: rgb(0, 0, 0);
+            font-weight: bold;
+            margin-right: 30px;
+        }
+
+        nav > a:hover {
+            text-decoration: underline;
+        }
+        main {
+            background-color: rgba(137, 43, 226, 0.925);
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px 40px;
+            box-shadow: 4px 4px 9px 0px rgba(0, 0, 0, 0.384);
+        }
+        article {
+            background-color: lightgray;
+            padding: 5px;
+        }
+        article > aside {
+            background-color: lightgray;
+        }
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 4px;
+            margin: 0px;
+        }
+
+        footer > p{
+            margin: 0px;
+        }
+
+        div#bola {
+            height: 100px;
+            width: 100px;
+            margin: 10px;
+            background-color: maroon;
+            border-radius: 50%   ;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <p>Esportes política Tecnologia</p>
+        </section>
+        <section id="noticias">
+        </section>
+        <article>
+            <h2>Flamengo planeja enfrentar time de Messi em estádio para quase 90 mil torcedores</h2>
+            <p>O Flamengo está definindo os últimos detalhes da pré-temporada nos Estados Unidos. A ideia é que o time de Tite realize até dois jogos no período de dez dias em que terá a Flórida como casa em janeiro. O principal amistoso, contra Inter Miami, pode acontecer na presença de até 90 mil torcedores.</p>
+            <aside>
+                <p>Artigo escrito por Carlos Eduardo</p>
+            </aside>
+        </article>
+        <article></article>
+    </main>
+    <footer>
+        <p>Desenvolvido pelo cursoemvideo</p>
+    </footer>
+    <div id="bola"></div>
+</body>
+</html>
