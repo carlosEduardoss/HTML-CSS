@@ -8,11 +8,11 @@
 }
 
 body, html {
-    background-color: rgb(148, 148, 148);
+    background-color: lightgray;
 }
 
 header {
-    background-color: gray;
+    background-color: rgb(148, 148, 148);
 }
 
 header > h1 {
@@ -21,11 +21,12 @@ header > h1 {
 }
 
 i#burguer {
-    background-color: rgb(28, 0, 244);
+    background-color: rgb(48, 48, 48);
     color: white;
     display: block;
     text-align: center;
     padding: 10px;
+    cursor: pointer;
 }
 
 
